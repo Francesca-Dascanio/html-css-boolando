@@ -21,6 +21,10 @@
     background-color: black;
 }
 
+.header-section, .footer-section {
+    color: white;
+}
+
 /* REGOLE HEADER */
 .header-section > ul {
     list-style: none;
@@ -30,7 +34,6 @@
 }
 
 .header-section li {
-    color: white;
     text-decoration: none;
     padding: 2px;
 }
@@ -39,7 +42,14 @@
     width: 50%;
 }
 
+/* REGOLE MAIN */
+.wrap {
+    flex-wrap: wrap;
+}
 
+.main-section {
+    margin: 40px 10px 0px 10px;
+}
 
 
 
@@ -68,4 +78,11 @@
     border: 1px dashed black;
     min-height: 30px;
     width: 100%;
+}
+
+.debug .main-section {
+    background-color: red;
+    border: 1px dashed black;
+    height: 600px;
+    width: 350px;
 }
