@@ -97,6 +97,18 @@ main {
     height: 90%;
 }
 
+.img-second {
+    display: none;
+}
+
+.main-section:hover > .img-second {
+    display: block;
+}
+
+.main-section:hover > .img-first {
+    display: none;
+}
+
 .information-top {
     position: absolute;
     left: 0;
