@@ -4,3 +4,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* REGOLE GENERALI */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* REGOLE HEADER */
+.header-section > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+
+.header-section li {
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.header-section > .logo {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* REGOLE DEBUG */
+.debug .header-section {
+    background-color: lightblue;
+    border: 1px dashed black;
+    min-height: 30px;
+    width: 100%;
+}
