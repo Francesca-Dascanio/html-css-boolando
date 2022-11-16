@@ -15,7 +15,10 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+}
+
+.justify-content-space-btw {
+ justify-content: space-between;
 }
 
 .bg-orange {
@@ -58,14 +61,6 @@ header {
     padding: 2px;
 }
 
-.container .list-left {
-    padding-right: 20%
-}
-
-.container .list-right {
-    padding-left: 20%
-}
-
 .header-section .logo {
     width: 120px;
 }
@@ -106,6 +101,7 @@ main {
     background-color: white;
     position: absolute;
     bottom: 0;
+    left: 0;
 }
 
 .brand, .tipe, .prices {
