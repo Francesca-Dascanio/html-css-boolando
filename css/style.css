@@ -33,6 +33,10 @@ body {
     color: white;
 }
 
+i {
+    color: white;
+}
+
 /* REGOLE HEADER */
 header {
     position: fixed;
@@ -57,7 +61,7 @@ header {
 
 .header-section a {
     text-decoration: none;
-    padding: 2px;
+    padding: 10px;
     font-weight: bold;
 }
 
@@ -158,20 +162,28 @@ font-size: 0.8em;
 
 
 /* REGOLE FOOTER */
+.footer-section {
+    min-height: 60px;
+    margin: 10px;
+}
+
 .footer-section ul {
     list-style: none;
 }
 
 .footer-section li {
     display: inline;
-    font-size: 0.7em;
 }
 
-.footer-section h5, .list-right {
-    padding-left: 70%
+.footer-section a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.8em;
 }
 
-
+.footer-section h4, .footer-section h5 {
+    margin-bottom: 10px;
+} 
 
 
 
@@ -205,10 +217,10 @@ font-size: 0.8em;
     border: 1px dashed black;
 } */
 
-.debug .footer-section {
+/* .debug .footer-section {
     background-color: lightblue;
     border: 1px dashed fuchsia;
     min-height: 60px;
     width: 100%;
-}
+} */
 
