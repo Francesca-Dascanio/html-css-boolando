@@ -80,7 +80,6 @@ main {
 }
 
 .main-section {
-    width: 350px;
     height: 600px;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -117,6 +116,10 @@ main {
     display: none;
 }
 
+.square:hover {
+    color: red;
+}
+
 .information-top {
     position: absolute;
     left: 0;
@@ -126,12 +129,16 @@ main {
 .label-red {
     background-color: red;
     margin-right: 4px;
-    padding: 1px;
+    padding: 2px;
+    color: white;
+    font-weight: bold;
 }
 
 .label-green {
     background-color: green;
-    padding: 1px;
+    padding: 2px;
+    color: white;
+    font-weight: bold;
 }
 
 .information-bottom {
