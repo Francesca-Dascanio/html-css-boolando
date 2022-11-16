@@ -76,7 +76,6 @@ main {
 }
 
 .main-section {
-    height: 400px;
     width: 300px;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -95,6 +94,22 @@ main {
 
 .main-section img {
     width: 100%;
+    height: 90%;
+}
+
+.information-top {
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+}
+
+.label-red {
+    background-color: red;
+    margin-right: 4px;
+}
+
+.label-green {
+    background-color: green;
 }
 
 .information-bottom {
@@ -102,11 +117,27 @@ main {
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 100%;
+    height: 15%;
+}
+
+.information-bottom > * {
+    padding: 5px;
 }
 
 .brand, .tipe, .prices {
-    font-size: 0.6em;
+font-size: 0.8em;
 }
+
+.price {
+    text-decoration: line-through;
+}
+
+.price-discount {
+    color: red;
+    font-weight: bold;
+}
+
 
 /* REGOLE FOOTER */
 .footer-section ul {
